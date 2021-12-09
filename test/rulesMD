@@ -1,0 +1,24 @@
+
+Possible throws:
+
+- scissors
+- rock
+- paper
+
+Possible return values:
+
+- player
+- computer
+- tie
+
+player | computer | result
+---|---|---
+scissors | rock | computer
+scissors | paper | player
+scissors | scissors | tie
+rock | rock | tie
+rock | paper | computer
+rock | scissors | player
+paper | rock | computer
+paper | scissors | computer
+paper | paper | tie
