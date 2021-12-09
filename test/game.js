@@ -1,5 +1,5 @@
 export function score(player, computer) {
-    if (player === 'rock' && computer === 'rock') {
+    if (player === computer) {
         return 'tie';
     }
     if (player === 'scissors' && computer === 'rock') {

@@ -42,4 +42,3 @@ test('player scissors, computer paper is player wins', (expect) => {
 
     expect.equal(actual, expected);
 });
-test('')
