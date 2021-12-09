@@ -13,12 +13,12 @@ Possible return values:
 
 player | computer | result
 ---|---|---
-scissors | rock | computer
-scissors | paper | player
-scissors | scissors | tie
-rock | rock | tie
-rock | paper | computer
+scissors | rock | computer*
+scissors | paper | player*
+scissors | scissors | tie*
+rock | rock | tie*
+rock | paper | computer*
 rock | scissors | player *
 paper | rock | player *
-paper | scissors | computer
-paper | paper | tie
+paper | scissors | computer*
+paper | paper | tie*
