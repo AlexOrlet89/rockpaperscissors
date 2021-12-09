@@ -18,7 +18,7 @@ scissors | paper | player
 scissors | scissors | tie
 rock | rock | tie
 rock | paper | computer
-rock | scissors | player
-paper | rock | computer
+rock | scissors | player *
+paper | rock | player *
 paper | scissors | computer
 paper | paper | tie

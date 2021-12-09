@@ -8,4 +8,17 @@ export function score(player, computer) {
     if (player === 'scissors' && computer === 'paper') {
         return 'player wins';
     }
+    if (player === 'rock' && computer === 'paper') {
+        return 'computer wins';
+    }
+    if (player === 'rock' && computer === 'scissors') {
+        return 'player wins';
+    }
+    if (player === 'paper' && computer === 'rock') {
+        return 'player wins';
+    }
+    if (player === 'paper' && computer === 'scissors') {
+        return 'computer wins';
+    }
+
 }
