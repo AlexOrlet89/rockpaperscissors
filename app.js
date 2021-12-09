@@ -1,9 +1,14 @@
 // import functions
 
-import { score } from "./test/game";
-import { generateThrow } from "./test/game";
+import { score } from "./test/game.js";
+import { generateThrow } from "./test/game.js";
 
 // grab DOM elements
+
+document.getElementById('rock').addEventListener('click');
+document.getElementById('paper').addEventListener('click');
+document.getElementById('scissors').addEventListener('click');
+
 
 
 
