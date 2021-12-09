@@ -1,5 +1,5 @@
 // IMPORT MODULES under test here:
-import { score } from '../test/game.js';
+import { score } from '../game.js';
 
 const test = QUnit.test;
 

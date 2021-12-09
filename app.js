@@ -1,13 +1,21 @@
 // import functions
 
-import { score } from "./test/game.js";
-import { generateThrow } from "./test/game.js";
+import { score } from "./game.js";
+import { generateThrow } from "./game.js";
 
 // grab DOM elements
-
-document.getElementById('rock').addEventListener('click');
-document.getElementById('paper').addEventListener('click');
-document.getElementById('scissors').addEventListener('click');
+const button = document.getElementById('rock');
+const resultsEl = document.getElementById('results');
+button.addEventListener('click', () => {
+  const computer = generateThrow();
+  console.log(computer);
+  const player = button.id;
+  const results = score(player, computer);
+  console.log(results);
+  resultsEl.textContent = results;
+});
+// document.getElementById('paper').addEventListener('click');
+// document.getElementById('scissors').addEventListener('click');
 
 
 
