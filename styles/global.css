@@ -14,12 +14,14 @@
 body {
     /* style */
     font-family: 'Titillium Web', sans-serif;
+    background-image: url(../assets/RPSbackground.jpg);
     background-color: var(--primary-background);
     color: var(--text-color);
+    text-align: center;
 
     /* layout */
-    display: grid;
-    grid-template-rows: 80px 1fr auto;
+    display: block;
+    grid-template-rows: auto auto auto auto;
 
 }
 
@@ -27,16 +29,27 @@ body {
 
 header {
     display: flex;
-    justify-content: flex-start;
+    justify-content: center;
     background-color: var(--chrome-background);
     box-shadow: 0px 10px 20px -12px rgba(0,0,0,0.45);
     padding: 0 var(--gutter);
+    margin-top: 180px;
+}
+
+h1 {
+    text-align: center;
+    
 }
 
 main {
+    background: rgb(152, 160, 144);
     overflow-y: auto;
+    text-align: center;
 }
 
+button {
+    
+}
 
 footer {
     background-color: var(--chrome-background-opaque);

@@ -3,13 +3,13 @@ export function score(player, computer) {
         return 'tie';
     }
     if (player === 'scissors' && computer === 'rock') {
-        return 'computer wins';
+        return 'Dwayne wins';
     }
     if (player === 'scissors' && computer === 'paper') {
         return 'player wins';
     }
     if (player === 'rock' && computer === 'paper') {
-        return 'computer wins';
+        return 'Dwayne wins';
     }
     if (player === 'rock' && computer === 'scissors') {
         return 'player wins';
@@ -18,7 +18,7 @@ export function score(player, computer) {
         return 'player wins';
     }
     if (player === 'paper' && computer === 'scissors') {
-        return 'computer wins';
+        return 'Dwayne wins';
     }
 
 }
